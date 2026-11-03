@@ -1,4 +1,6 @@
-# wendys-2
+# Raytracing engine
+## `main.py`
+
 <img width="958" height="536" alt="image" src="https://github.com/user-attachments/assets/57a1d8a5-ed45-40df-a8f9-1fd6087dc4e2" />
 
 
@@ -16,3 +18,13 @@ world.add(box, tri)
 
 
 ```
+
+
+
+
+## `wendy frfr.py`
+<img width="961" height="590" alt="Screenshot 2026-11-03 160832" src="https://github.com/user-attachments/assets/5458a6a9-7b52-44d3-b7df-c5cd495357d2" />
+Simple kaleidoscope visualization with a reflective triangular tube.
+
+V2 of renderer. Uses njit for faster math.
+
