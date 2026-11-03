@@ -1,4 +1,7 @@
 # wendys-2
+<img width="958" height="536" alt="image" src="https://github.com/user-attachments/assets/57a1d8a5-ed45-40df-a8f9-1fd6087dc4e2" />
+
+
 Simple 3D rendering engine using raytracing.
 
 Supports colors, reflectivity, view-angle simulated darkness, colors, skylight, axis aligned cuboids and arbitrary triangles.
