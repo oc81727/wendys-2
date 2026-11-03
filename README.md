@@ -1,5 +1,5 @@
 # wendys-2
-Simple 3D rendering engine using raycasting.
+Simple 3D rendering engine using raytracing.
 
 Supports colors, reflectivity, view-angle simulated darkness, colors, skylight, axis aligned cuboids and arbitrary triangles.
 
