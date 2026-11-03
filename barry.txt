@@ -1,0 +1,25 @@
+P = iA + jB + kC
+i + j + k = 1
+
+Px = iAx + jBx + kCx
+Py = iAy + jBy + kCy
+Pz = iAz + jBz + kCz
+
+k = 1 - i - j
+
+Px = iAx + jBx + (1 - i - j)Cx
+Px = iAx + jBx + Cx - iCx - jCx
+iCx - iAx = jBx + Cx - jCx - Px  //wrong somewhere here ish
+i = (jBx + Cx - jCx - Px)/(Cx - Ax)
+
+
+Py = iAy + jBy + (1 - i - j)Cy
+Py = iAy + jBy + Cy - iCy - jCy
+Py = i(Ay - Cy) + j(By - Cy) + Cy
+Py = (jBx + Cx - jCx - Px)(Ay - Cy)/(Cx - Ax) + j(By - Cy) + Cy
+Py(Cx - Ax) = j(Bc - Cx)(Ay - Cy) + (Cx - Px)(Ay - Cy) + j(By - Cy) + Cy
+
+j = (Py(Cx - Ax) - Cy - (Cx - Px)(Ay - Cy))/((Bc - Cx)(Ay - Cy) + (By - Cy))
+i = (jBx - Cx - jCx - Px)/(Cx - Ax)
+k = 1 - i - k
+
